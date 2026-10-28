@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /root/IL/ZFCIL
-PY=/root/anaconda3/envs/bimc/bin/python
+PY=/root/anaconda3/envs/zfcil/bin/python
 mkdir -p logs
 
 for cfg in configs/umerced.yaml configs/aid.yaml configs/rsi.yaml configs/nwpu.yaml; do

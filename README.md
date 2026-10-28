@@ -29,24 +29,6 @@ pip install -r requirements.txt
 
 ### 🔎 Dataset
 
-Download the datasets from the links below and place them under `data/` (the `ROOT` in each config is `./data/`). Each `train/` and `test/` folder must contain one subfolder per class:
-
-```
-data/
-├── RSI-CB/
-│   ├── train/
-│   └── test/
-├── UCMerced_LandUse/
-│   ├── train/
-│   └── test/
-├── NWPU-RESISC45/
-│   ├── train/
-│   └── test/
-└── AID/
-    ├── train/
-    └── test/
-```
-
 - **NWPU-RESISC45**: [official page](https://gcheng-nwpu.github.io/#Datasets) · [Hugging Face mirror](https://huggingface.co/datasets/jonathan-roberts1/NWPU-RESISC45)
 - **AID**: [official page](https://captain-whu.github.io/AID/) · [Hugging Face mirror](https://huggingface.co/datasets/blanchon/AID)
 - **UC Merced Land Use**: [official page](http://weegee.vision.ucmerced.edu/datasets/landuse.html) · [TorchGeo zip](https://huggingface.co/datasets/torchgeo/ucmerced/resolve/main/UCMerced_LandUse.zip)

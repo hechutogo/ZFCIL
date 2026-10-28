@@ -5,16 +5,16 @@ DEVICE:
   GPU_ID: "0;"
 
 DATASET:
-  NAME: "nwpu"
+  NAME: "irsi"
   ROOT: "/root/IL/data/data/"
-  GPT_PATH: "./description/nwpu_prompts.json"
+  GPT_PATH: "./descriptions/rsi_prompts.json"
   M: 40
-  NUM_INIT_CLS: 9
-  NUM_INC_CLS: 9
-  NUM_BASE_SHOT: 560
-  NUM_INC_SHOT: 560
+  NUM_INIT_CLS: 7
+  NUM_INC_CLS: 7
+  NUM_BASE_SHOT: 1065
+  NUM_INC_SHOT: 1065
   SHUFFLE: True
-  BETA: 0.6
+  BETA: 0.7
 
 DATALOADER:
   TRAIN:

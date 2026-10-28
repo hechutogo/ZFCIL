@@ -48,14 +48,14 @@ Place it at `~/.cache/clip/ViT-B-16.pt` (see also the official [openai/CLIP](htt
 
 ## 🔑 Running scripts
 
-Each dataset has its own config under `config/`. Run one dataset with:
+Each dataset has its own config under `configs/`. Run one dataset with:
 
 ```bash
 cd /root/IL/ZFCIL
-python main.py --config config/umerced.yaml   # UC Merced
-python main.py --config config/aid.yaml       # AID
-python main.py --config config/rsi.yaml       # RSI-CB
-python main.py --config config/nwpu.yaml      # NWPU-RESISC45
+python main.py --config configs/umerced.yaml   # UC Merced
+python main.py --config configs/aid.yaml       # AID
+python main.py --config configs/rsi.yaml       # RSI-CB
+python main.py --config configs/nwpu.yaml      # NWPU-RESISC45
 ```
 
 Each config runs three seeds (`SEED`) sequentially. To run all four datasets in a row:

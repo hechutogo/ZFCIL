@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import model.clip.clip as clip
+import models.clip.clip as clip
 import json
 import numpy as np
 

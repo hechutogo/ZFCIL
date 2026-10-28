@@ -3,7 +3,7 @@ import torch.nn as nn
 from data.data_manager import DatasetManager
 from tqdm import tqdm
 from utils.evaluator import AccuracyEvaluator
-from model.ours import ZFCIL
+from models.ours import ZFCIL
 import numpy as np
 import time
 from torch.utils.data import DataLoader

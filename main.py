@@ -1,7 +1,7 @@
 from yacs.config import CfgNode as CN
 from utils.util import set_gpu, set_seed
 import argparse
-from model.engine import Runner
+from models.engine import Runner
 import copy
 
 

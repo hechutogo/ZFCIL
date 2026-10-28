@@ -5,16 +5,16 @@ DEVICE:
   GPU_ID: "0;"
 
 DATASET:
-  NAME: "iaid"
+  NAME: "iUCMerced"
   ROOT: "/root/IL/data/data/"
-  GPT_PATH: "./description/aid_prompts.json"
+  GPT_PATH: "./descriptions/iUCMerced_prompts.json"
   M: 40
-  NUM_INIT_CLS: 5
-  NUM_INC_CLS: 5
-  NUM_BASE_SHOT: 180
-  NUM_INC_SHOT: 180
+  NUM_INIT_CLS: 7
+  NUM_INC_CLS: 7
+  NUM_BASE_SHOT: 80
+  NUM_INC_SHOT: 80
   SHUFFLE: True
-  BETA: 0.6
+  BETA: 0.04
 
 DATALOADER:
   TRAIN:

@@ -38,7 +38,7 @@ class iRSI(iData):
 
         self.class_order = np.arange(200).tolist()
 
-        self.gpt_prompt_path = 'description/rsi_prompts.json'
+        self.gpt_prompt_path = 'descriptions/rsi_prompts.json'
 
         self.classes = ["airplane", "airport_runway", "artificial_grasland",
                         "avenue", "bare_land", "bridge", "city_building", "coastline", "container",
@@ -90,7 +90,7 @@ class iUCMerced(iData):
 
         self.class_order = np.arange(200).tolist()
 
-        self.gpt_prompt_path = 'description/iUCMerced_prompts.json'
+        self.gpt_prompt_path = 'descriptions/iUCMerced_prompts.json'
 
         self.classes = ["agricultural", "airplane", "baseballdiamond", "beach", "buildings",
                         "chaparral", "denseresidential", "forest", "freeway", "golfcourse",
@@ -139,7 +139,7 @@ class iNWPU(iData):
 
         self.class_order = np.arange(200).tolist()
 
-        self.gpt_prompt_path = 'description/nwpu_prompts.json'
+        self.gpt_prompt_path = 'descriptions/nwpu_prompts.json'
 
         self.classes = ["airplane", "airport", "baseball_diamond", "basketball_court", "beach",
                         "bridge", "chaparral", "church", "circular_farmland", "cloud",
@@ -194,7 +194,7 @@ class iAID(iData):
 
         self.class_order = np.arange(200).tolist()
 
-        self.gpt_prompt_path = 'description/aid_prompts.json'
+        self.gpt_prompt_path = 'descriptions/aid_prompts.json'
 
         self.classes = ["airport", "bareland", "baseballfield", "beach", "bridge",
                         "Center", "church", "commercial", "denseresidential",

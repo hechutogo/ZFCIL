@@ -5,16 +5,16 @@ DEVICE:
   GPU_ID: "0;"
 
 DATASET:
-  NAME: "irsi"
+  NAME: "iaid"
   ROOT: "/root/IL/data/data/"
-  GPT_PATH: "./description/rsi_prompts.json"
+  GPT_PATH: "./descriptions/aid_prompts.json"
   M: 40
-  NUM_INIT_CLS: 7
-  NUM_INC_CLS: 7
-  NUM_BASE_SHOT: 1065
-  NUM_INC_SHOT: 1065
+  NUM_INIT_CLS: 5
+  NUM_INC_CLS: 5
+  NUM_BASE_SHOT: 180
+  NUM_INC_SHOT: 180
   SHUFFLE: True
-  BETA: 0.7
+  BETA: 0.6
 
 DATALOADER:
   TRAIN:

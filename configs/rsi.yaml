@@ -6,7 +6,7 @@ DEVICE:
 
 DATASET:
   NAME: "irsi"
-  ROOT: "/root/IL/data/data/"
+  ROOT: "./data/"
   GPT_PATH: "./descriptions/rsi_prompts.json"
   M: 40
   NUM_INIT_CLS: 7

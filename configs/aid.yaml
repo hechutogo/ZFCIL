@@ -6,7 +6,7 @@ DEVICE:
 
 DATASET:
   NAME: "iaid"
-  ROOT: "/root/IL/data/data/"
+  ROOT: "./data/"
   GPT_PATH: "./descriptions/aid_prompts.json"
   M: 40
   NUM_INIT_CLS: 5

@@ -6,7 +6,7 @@ DEVICE:
 
 DATASET:
   NAME: "nwpu"
-  ROOT: "/root/IL/data/data/"
+  ROOT: "./data/"
   GPT_PATH: "./descriptions/nwpu_prompts.json"
   M: 40
   NUM_INIT_CLS: 9

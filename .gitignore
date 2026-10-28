@@ -9,6 +9,12 @@
 # CLIP cached weights (downloaded at runtime, lives outside the repo)
 .clip/
 
+# Dataset (downloaded by the user, not committed)
+data/RSI-CB/
+data/UCMerced_LandUse/
+data/NWPU-RESISC45/
+data/AID/
+
 # Logs
 logs/
 *.log

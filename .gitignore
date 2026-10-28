@@ -1,0 +1,25 @@
+# Weights / model checkpoints (do not commit)
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# CLIP cached weights (downloaded at runtime, lives outside the repo)
+.clip/
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store

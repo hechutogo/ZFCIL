@@ -1,0 +1,34 @@
+SEED: [1993, 1996, 1997]
+
+DEVICE:
+  DEVICE_NAME: "cuda"
+  GPU_ID: "0;"
+
+DATASET:
+  NAME: "nwpu"
+  ROOT: "/root/IL/data/data/"
+  GPT_PATH: "./description/nwpu_prompts.json"
+  M: 40
+  NUM_INIT_CLS: 9
+  NUM_INC_CLS: 9
+  NUM_BASE_SHOT: 560
+  NUM_INC_SHOT: 560
+  SHUFFLE: True
+  BETA: 0.6
+
+DATALOADER:
+  TRAIN:
+    BATCH_SIZE_BASE: 64
+    BATCH_SIZE_INC: 64
+  TEST:
+    BATCH_SIZE: 100
+  NUM_WORKERS: 4
+
+MODEL:
+  BACKBONE:
+    NAME: "ViT-B/16"
+
+TRAINER:
+  ZFCIL:
+    PREC: "fp16"
+    VISION_CALIBRATION: True

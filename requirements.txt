@@ -1,0 +1,13 @@
+# PyTorch / torchvision — CUDA 11.8 build.
+# Install from the PyTorch index to get the CUDA build (the plain PyPI wheels are CPU-only):
+#   pip install torch==2.0.1 torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1
+torchvision==0.15.2
+
+numpy==1.24.1
+Pillow==10.2.0
+yacs==0.1.8
+tqdm==4.66.5
+scikit-learn==1.3.2
+ftfy==6.2.3
+regex==2024.11.6
